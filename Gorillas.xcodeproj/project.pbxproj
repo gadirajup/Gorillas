@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		A457F3912277EB9200877C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457F3902277EB9200877C86 /* AppDelegate.swift */; };
 		A457F3932277EB9200877C86 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A457F3922277EB9200877C86 /* GameScene.sks */; };
-		A457F3952277EB9200877C86 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A457F3942277EB9200877C86 /* Actions.sks */; };
 		A457F3972277EB9200877C86 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457F3962277EB9200877C86 /* GameScene.swift */; };
 		A457F3992277EB9200877C86 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457F3982277EB9200877C86 /* GameViewController.swift */; };
 		A457F39C2277EB9200877C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A457F39A2277EB9200877C86 /* Main.storyboard */; };
 		A457F39E2277EB9300877C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A457F39D2277EB9300877C86 /* Assets.xcassets */; };
 		A457F3A12277EB9300877C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A457F39F2277EB9300877C86 /* LaunchScreen.storyboard */; };
+		A457F3A92277EC4900877C86 /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = A457F3A82277EC4900877C86 /* hitPlayer.sks */; };
+		A457F3AB2277EC4F00877C86 /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = A457F3AA2277EC4F00877C86 /* hitBuilding.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A457F38D2277EB9200877C86 /* Gorillas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gorillas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A457F3902277EB9200877C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A457F3922277EB9200877C86 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A457F3942277EB9200877C86 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A457F3962277EB9200877C86 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A457F3982277EB9200877C86 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A457F39B2277EB9200877C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A457F39D2277EB9300877C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A457F3A02277EB9300877C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A457F3A22277EB9300877C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A457F3A82277EC4900877C86 /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
+		A457F3AA2277EC4F00877C86 /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,14 @@
 			children = (
 				A457F3902277EB9200877C86 /* AppDelegate.swift */,
 				A457F3922277EB9200877C86 /* GameScene.sks */,
-				A457F3942277EB9200877C86 /* Actions.sks */,
 				A457F3962277EB9200877C86 /* GameScene.swift */,
 				A457F3982277EB9200877C86 /* GameViewController.swift */,
 				A457F39A2277EB9200877C86 /* Main.storyboard */,
 				A457F39D2277EB9300877C86 /* Assets.xcassets */,
 				A457F39F2277EB9300877C86 /* LaunchScreen.storyboard */,
 				A457F3A22277EB9300877C86 /* Info.plist */,
+				A457F3A82277EC4900877C86 /* hitPlayer.sks */,
+				A457F3AA2277EC4F00877C86 /* hitBuilding.sks */,
 			);
 			path = Gorillas;
 			sourceTree = "<group>";
@@ -133,9 +136,10 @@
 			files = (
 				A457F39C2277EB9200877C86 /* Main.storyboard in Resources */,
 				A457F3932277EB9200877C86 /* GameScene.sks in Resources */,
+				A457F3A92277EC4900877C86 /* hitPlayer.sks in Resources */,
+				A457F3AB2277EC4F00877C86 /* hitBuilding.sks in Resources */,
 				A457F39E2277EB9300877C86 /* Assets.xcassets in Resources */,
 				A457F3A12277EB9300877C86 /* LaunchScreen.storyboard in Resources */,
-				A457F3952277EB9200877C86 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
