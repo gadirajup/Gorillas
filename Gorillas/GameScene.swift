@@ -17,6 +17,7 @@ enum CollisionTypes: UInt32 {
 
 class GameScene: SKScene {
     
+    weak var viewController: GameViewController!
     var buildings = [BuildingNode]()
     
     private var label : SKLabelNode?
