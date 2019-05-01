@@ -17,6 +17,7 @@
 		A457F3A92277EC4900877C86 /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = A457F3A82277EC4900877C86 /* hitPlayer.sks */; };
 		A457F3AB2277EC4F00877C86 /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = A457F3AA2277EC4F00877C86 /* hitBuilding.sks */; };
 		A457F3AD2277ED8D00877C86 /* BuildingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457F3AC2277ED8D00877C86 /* BuildingNode.swift */; };
+		A4FF7BA42279148C0056A333 /* Assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4FF7BA32279148C0056A333 /* Assets.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A457F3A82277EC4900877C86 /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
 		A457F3AA2277EC4F00877C86 /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
 		A457F3AC2277ED8D00877C86 /* BuildingNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingNode.swift; sourceTree = "<group>"; };
+		A4FF7BA32279148C0056A333 /* Assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Assets.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				A457F3982277EB9200877C86 /* GameViewController.swift */,
 				A457F39A2277EB9200877C86 /* Main.storyboard */,
 				A457F39D2277EB9300877C86 /* Assets.xcassets */,
+				A4FF7BA32279148C0056A333 /* Assets.atlas */,
 				A457F39F2277EB9300877C86 /* LaunchScreen.storyboard */,
 				A457F3A22277EB9300877C86 /* Info.plist */,
 				A457F3A82277EC4900877C86 /* hitPlayer.sks */,
@@ -139,6 +142,7 @@
 			files = (
 				A457F39C2277EB9200877C86 /* Main.storyboard in Resources */,
 				A457F3932277EB9200877C86 /* GameScene.sks in Resources */,
+				A4FF7BA42279148C0056A333 /* Assets.atlas in Resources */,
 				A457F3A92277EC4900877C86 /* hitPlayer.sks in Resources */,
 				A457F3AB2277EC4F00877C86 /* hitBuilding.sks in Resources */,
 				A457F39E2277EB9300877C86 /* Assets.xcassets in Resources */,
